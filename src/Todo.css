@@ -1,0 +1,26 @@
+.todo{
+	width: 20em;
+	height: auto;
+	background-color: blue;
+	color: white;
+	border: 2px solid darkblue;
+	border-radius: 1.5em;
+	margin: .5em;
+	padding-bottom: 1em;
+	box-shadow: none;
+}
+
+.todo:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 10px #999999;
+  width: 21em;
+}
+
+
+.complete h2 {
+    text-decoration: line-through;
+}
+
+.todo-description{
+	color: gray;
+}
